@@ -27,7 +27,18 @@ def elegirFecha(artista):
     Que parametros tiene -> artista 
     que retorna -> fecha elegida
     '''
+    artistas = [artista1, artista2, artista3]
+    fecha_por_artista = [
+        ["11/05/2025", "12/05/2025", "13/05/2025"]
+        ["03/06/2025", "04/06/2025"]
+        ["20/07/2025"]
+    ]
+    for i in range (len(artistas)):
+        if artistas[i] == artista:
+            fechas_disponibles = fecha_por_artista
+            break
     
+
 
 # FUNCIONALIDAD 3 - elegir asientos
 
