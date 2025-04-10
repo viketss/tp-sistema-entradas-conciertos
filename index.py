@@ -1,6 +1,4 @@
-
-
-
+# SISTEMA DE GESTION DE CONCIERTOS EN UN ESTADIO
 
 
 #FUNCIONALIDAD 1: mostrar listado de artistas
