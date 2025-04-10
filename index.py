@@ -23,11 +23,11 @@ def elegirBanda():
 # FUNCIONALIDAD 2 - elegir fecha
 def elegirFecha(artista):
     '''
-    Que hace
-    Que parametros tiene
-    que retorna 
+    Que hace -> La función maneja el proceso de seleccion de fecha
+    Que parametros tiene -> artista 
+    que retorna -> fecha elegida
     '''
-    pass 
+    
 
 # FUNCIONALIDAD 3 - elegir asientos
 
