@@ -21,12 +21,29 @@ def elegirBanda():
 # FUNCIONALIDAD 2 - elegir fecha
 def elegirFecha(artista):
     '''
-    Que hace
-    Que parametros tiene
-    que retorna 
+    Que hace -> La función maneja el proceso de seleccion de fecha
+    Que parametros tiene -> artista 
+    que retorna -> fecha elegida
     '''
-    pass 
+    artistas = [artista1, artista2, artista3]
+    fecha_por_artista = [
+        ["11/05/2025", "12/05/2025", "13/05/2025"]
+        ["03/06/2025", "04/06/2025"]
+        ["20/07/2025"]
+    ]
+    for i in range (len(artistas)):
+        if artistas[i] == artista:
+            fechas_disponibles = fecha_por_artista[i]
+            break
+    
+    for i, fecha in enumerate(fechas_disponibles, start = 1):
+        print(f"{i}. {fecha}")
+    seleccionar_fecha = int(input("Por favor, ingrese el numero de fecha escogido"))
+    while seleccionar_fecha < 1 or seleccionar_fecha > len(fechas_disponibles):
+        print("Fecha invalida, intente nuevamente")
 
+    fecha_elegida = fechas_disponibles[seleccionar_fecha - 1]
+    return fecha_elegida
 # FUNCIONALIDAD 3 - elegir asientos
 
 def elegirUbicacion():
