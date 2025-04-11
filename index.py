@@ -2,7 +2,7 @@
 
 
 #FUNCIONALIDAD 1: mostrar listado de artistas
-def mostrarListadoArtistas():
+def mostrarListadoConciertos():
     '''
     Que hace
     Que parametros tiene
@@ -17,6 +17,7 @@ def elegirBanda():
     que retorna 
     '''
     pass 
+
 
 # FUNCIONALIDAD 2 - elegir fecha
 def elegirFecha(artista):
